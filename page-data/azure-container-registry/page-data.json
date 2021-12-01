@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/azure-container-registry/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"MAD 📚"}},"markdownRemark":{"id":"d37e9ff1-1300-597b-9da2-d8d3085022d8","excerpt":"An Azure service that provides a registry of Docker and Open Container Initiative images.","html":"<p>An Azure service that provides a registry of Docker and Open Container Initiative images.</p>","frontmatter":{"title":"Azure Container Registry","synonyms":"ACR, Container Registry, Microsoft Azure Container Registry"}},"previous":{"fields":{"slug":"/azure-consumed-revenue/"},"frontmatter":{"title":"Azure Consumed Revenue"}},"next":null},"pageContext":{"id":"d37e9ff1-1300-597b-9da2-d8d3085022d8","previousPostId":"5c9ef97e-feec-56b7-a4d5-ad46041251c8","nextPostId":null}},
+    "staticQueryHashes": ["2841359383","3257411868"]}

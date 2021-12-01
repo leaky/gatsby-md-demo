@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"MAD 📚"}},"allMarkdownRemark":{"nodes":[{"excerpt":"An open specification for a personal computer riser-card architecture that integrates audio, modem, broadband and wireless functions.","fields":{"slug":"/advanced-communication-riser/"},"frontmatter":{"title":"Advanced Communication Riser","synonyms":"ACR"}},{"excerpt":"A metric that measures invoiced Azure usage with adjustments for fraud and credit offers.","fields":{"slug":"/azure-consumed-revenue/"},"frontmatter":{"title":"Azure Consumed Revenue","synonyms":"ACR, Azure Consumed Revenue"}},{"excerpt":"An Azure service that provides a registry of Docker and Open Container Initiative images.","fields":{"slug":"/azure-container-registry/"},"frontmatter":{"title":"Azure Container Registry","synonyms":"ACR, Container Registry, Microsoft Azure Container Registry"}}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383"]}

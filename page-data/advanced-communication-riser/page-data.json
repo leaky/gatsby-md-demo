@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/advanced-communication-riser/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"MAD 📚"}},"markdownRemark":{"id":"b7d90a2d-dfbf-5793-8b9e-c119bb6e5794","excerpt":"An open specification for a personal computer riser-card architecture that integrates audio, modem, broadband and wireless functions.","html":"<p>An open specification for a personal computer riser-card architecture that integrates audio, modem, broadband and wireless functions.</p>","frontmatter":{"title":"Advanced Communication Riser","synonyms":"ACR"}},"previous":null,"next":{"fields":{"slug":"/azure-consumed-revenue/"},"frontmatter":{"title":"Azure Consumed Revenue"}}},"pageContext":{"id":"b7d90a2d-dfbf-5793-8b9e-c119bb6e5794","previousPostId":null,"nextPostId":"5c9ef97e-feec-56b7-a4d5-ad46041251c8"}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
