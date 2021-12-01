@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-md-demo",
   siteMetadata: {
     title: `MAD 📚`,
     description: `A starter blog demonstrating what Gatsby can do.`,
@@ -12,8 +13,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/dictionary`,
+        name: `dictionary`,
       },
     },
     {
@@ -84,7 +85,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: { order: ASC, fields: [frontmatter___title] },
                 ) {
                   nodes {
                     excerpt
@@ -94,14 +95,13 @@ module.exports = {
                     }
                     frontmatter {
                       title
-                      date
                     }
                   }
                 }
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "MAD RSS Feed",
           },
         ],
       },
