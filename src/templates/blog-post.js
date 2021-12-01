@@ -31,7 +31,7 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          <Bio />
+          <p>Synonyms: {post.frontmatter.synonyms}</p>
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -83,8 +83,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        description
+        synonyms
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
